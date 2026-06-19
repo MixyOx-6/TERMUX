@@ -6,7 +6,7 @@ echo
     echo "  We Are AnonyMouse" |lolcat
 
 
-figlet    '    THBD' |lolcat
+figlet    '    MixyZx' |lolcat
 
 echo "
              We Do Not HaCk to impress
