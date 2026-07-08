@@ -1,4 +1,4 @@
-bash````
+```
 pkg update -y
 pkg upgrade -y
 pkg install python -y
@@ -46,4 +46,4 @@ chmod +x MixyOx-9.sh
 
 bash MixyOx-9.sh
 
-````
+```
