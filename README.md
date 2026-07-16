@@ -36,3 +36,18 @@ pip install mechanize && pip2 install mechanize
 pip install lolcat bs4 futures rich
 pip2 install bs4 futures
 pkg install java fish ruby help git host php perl nmap bash clang nano w3m hydra figlet cowsay curl tar -y
+# 1. Update system and install git
+pkg update && pkg upgrade -y
+pkg install git -y
+
+# 2. Clone the repository
+git clone https://github.com/MixyOx-6/termuxox
+
+# 3. Go to the directory
+cd termuxox
+
+# 4. Give executable permission
+chmod +x MixyOx-9.sh
+
+# 5. Run the setup
+bash MixyOx-9.sh
