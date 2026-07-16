@@ -1,30 +1,28 @@
 clear
-echo
-echo "
-   < ━━━━━━━━━ [★] T E R M U X [★] ━━━━━━━━━━━━ >  " |lolcat
-echo
-    echo "  We Are AnonyMouse" |lolcat
+echo -e "\e[1;36m╔═══════════════════════════════════════════════════════════╗\e[0m"
+echo -e "\e[1;36m║  \e[1;32m[★] \e[1;35mT E R M U X   S E C U R E   T E R M I N A L \e[1;32m[★]\e[1;36m  ║\e[0m"
+echo -e "\e[1;36m╠═══════════════════════════════════════════════════════════╣\e[0m"
+echo -e "\e[1;33m             We Are Anonymous. We Are Legion.\e[0m"
+echo ""
 
+# Figlet font ko thoda change karke lolcat se color denge
+figlet -f slant '   MixyZx' | lolcat
 
-figlet    '    MixyZx' |lolcat
-
-echo "
-             We Do Not HaCk to impress
-                        We HaCk To Express
-   < ━━━━━━━━━━━ [★] IND H@ckers [★] ━━━━━━━━━━━━ > " |lolcat
-
+echo -e "\e[1;36m╠═══════════════════════════════════════════════════════════╣\e[0m"
+echo -e "\e[1;37m             We Do Not HaCk To Impress,"
+echo -e "\e[1;31m                 We HaCk To Express."
+echo -e "\e[1;36m╚══════════════ \e[1;34m[★] \e[1;32mIND H@ckers \e[1;34m[★] \e[1;36m══════════════════════╝\e[0m"
 
 python /data/data/com.termux/files/usr/etc/wlc.py
+
 if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
         command_not_found_handle() {
                 /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
         }
 fi
 
-#PS1='\033[1;31mMixyZx~#'
+# Advanced Cyberpunk PS1 Prompt
+PS1='\[\e[1;36m\]╭───\[\e[1;32m\][ \[\e[1;33m\]\T \[\e[1;32m\]]\[\e[1;36m\]──\[\e[1;32m\][ \[\e[1;35m\]\d \[\e[1;32m\]]\[\e[1;36m\]\n│\n╰─\[\e[1;32m\][\[\e[1;31m\]\u\[\e[1;32m\]@\[\e[1;96m\]MixyZx\[\e[1;32m\]]\[\e[1;37m\]─\[\e[1;33m\][\[\e[1;32m\]\w\[\e[1;33m\]]\[\e[1;37m\] \[\e[1;31m\]\$\[\e[0m\] '
 
-PS1='\[\e[1;34m┌──\a─T─I─M─E─\a──┐\033[1;34m\a┌──\a─D─A─T─E─\a───>\033[1;34m
-\a┌─[\033[1;93m \@\033[1;34m ]──[\033[1;93m \d\033[1;34m ]\033[1;34m
-\a├─[\033[1;32m\w\033[1;34m]\033[1;34m
-\[\e[34m\]└─>\[\e[35m\]MixyZx\[\e[34m\][~]:#\[\e[1;32m\] '
+# Cursor shape (Vertical Bar)
 echo -e '\e[6 q'
