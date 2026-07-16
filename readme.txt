@@ -1,49 +1,38 @@
-```
-pkg update -y
-pkg upgrade -y
-pkg install python -y
-pkg install python2 -y
-pkg install python2-dev -y
-pkg install python3 -y
-pip install requests
-pip2 install requests
-pip install mechanize
-pip2 install mechanize
-pip install lolcat
-pip install bs4
-pip2 install bs4
-pip2 install requests bs4
-pip install futures
-pip2 install futures
-pip install rich
-pkg install java -y
-pkg install fish -y
-pkg install ruby -y
-pkg install help -y
-pkg install git -y
-pkg install host -y
-pkg install php -y
-pkg install perl -y
-pkg install nmap -y
-pkg install bash -y 
-pkg install clang -y
-pkg install nano -y
-pkg install w3m -y
-pkg install havij -y
-pkg install hydra -y
-pkg install figlet -y
-pkg install cowsay -y
-pkg install curl -y
-pkg install tar -y
-pkg update && pkg upgrade -y
+<h1 align="center">
+  <br>
+  <img src="https://img.shields.io/badge/Termux-Custom%20Theme-blue?style=for-the-badge&logo=gnu-bash">
+  <br>
+  MixyOx-9 Termux Theme Setup
+  <br>
+</h1>
 
-pkg install git -y
-git clone https://github.com/MixyOx-6/termuxox
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-MixyOx--6-red?style=flat-square">
+  <img src="https://img.shields.io/badge/Language-Bash%20/%20Python-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Platform-Termux-orange?style=flat-square">
+</p>
 
-cd termuxox
+<p align="center">
+  <b>Advanced, Eye-Catching, and Cyberpunk styled Termux banner and prompt setup script.</b>
+</p>
 
-chmod +x MixyOx-9.sh
+---
 
-bash MixyOx-9.sh
+## ⚡ Features
+- 🟢 Custom Hackers Banner with `figlet` and `lolcat`.
+- 🔴 Typewriter style Python welcome script.
+- 🟡 Advanced Dual-line Command Prompt (Time, Date, Directory, and User).
+- 🟣 Easy one-click setup script.
 
-```
+## 🛠️ Prerequisites & Dependencies Setup
+*To avoid any errors while running tools in Termux, install these basic requirements first. Just copy the whole block and paste it into Termux:*
+
+```bash
+pkg update -y && pkg upgrade -y
+pkg install python -y && pkg install python2 -y
+pkg install python2-dev -y && pkg install python3 -y
+pip install requests && pip2 install requests
+pip install mechanize && pip2 install mechanize
+pip install lolcat bs4 futures rich
+pip2 install bs4 futures
+pkg install java fish ruby help git host php perl nmap bash clang nano w3m hydra figlet cowsay curl tar -y
